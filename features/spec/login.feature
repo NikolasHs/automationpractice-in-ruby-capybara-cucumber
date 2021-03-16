@@ -20,7 +20,7 @@ Funcionalidade: Login no Ecommerce Fake
 
   Exemplos:
     | email                      | senha             | mensagem                        |
-    | "testando777@gmail.com"    | "senha incorreta" | "Authentication failed."     |
+    | "testando777@teste.com"    | "senha incorreta" | "Authentication failed."     |
     | "usuário incorreto"        | "teste12345"      | "Invalid email address."     |
     | ""                         | "12345teste"      | "An email address required." |
-    | "novoemailteste@gmail.com" | ""                | "Password is required."      |
+    | "outroemail@teste.com"     | ""                | "Password is required."      |

@@ -19,7 +19,7 @@ Funcionalidade: Buscas no Fake Ecommerce
     Então deve ser exibido a mensagem "No results were found for your search \"Testando\""
 
   @adicionar_produto_no_carrinho
-  Cenário: adiciona o produto "Blouse" no carrinho e finaliza a compra
+  Cenário: adiciona o produto "Blouse" no carrinho 
     Quando buscar pelo produto "Blouse"
     E clicar no botão add to cart e depois no botão Proceed to checkout
     Então o carrinho deve ficar com "1" produto
